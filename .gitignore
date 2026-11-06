@@ -17,3 +17,9 @@ metastore_db/
 # Operating system files
 .DS_Store
 Thumbs.db
+
+
+# Spark generated data
+data/bronze/
+data/silver/
+data/gold/
