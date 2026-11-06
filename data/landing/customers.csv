@@ -1,0 +1,9 @@
+customer_id,first_name,last_name,email,city,country,registration_date
+101,John,Smith,john@example.com,London,UK,2024-01-15
+102,Sarah,Johnson,sarah@example.com,Stockholm,Sweden,2024-02-20
+103,David,Brown,david@example.com,New York,USA,2024-03-10
+104,Emma,Wilson,emma@example.com,London,UK,2024-04-05
+105,Michael,Davis,michael@example.com,Stockholm,Sweden,2024-05-12
+106,Olivia,Martin,olivia@example.com,Paris,France,2024-06-18
+107,James,Anderson,james@example.com,London,UK,2024-07-22
+108,Sophia,Thomas,sophia@example.com,Paris,France,2024-08-30
