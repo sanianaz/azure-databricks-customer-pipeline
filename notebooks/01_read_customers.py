@@ -13,6 +13,12 @@ df = spark.read.csv(
     inferSchema=True
 )
 
+# Write raw data to Bronze layer
+df.write \
+    .format("parquet") \
+    .mode("overwrite") \
+    .save("data/bronze/customers")
+
 # Display customer data
 df.show()
 
