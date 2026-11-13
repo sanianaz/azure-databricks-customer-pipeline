@@ -34,12 +34,7 @@ azure-databricks-customer-pipeline/
 ├── data/
 │   ├── landing/
 │   │   └── customers.csv
-│   ├── bronze/
-│   │   └── customers/
-│   ├── silver/
-│   │   └── customers/
-│   └── gold/
-│       └── customers_by_country/
+│   └── README.md
 ├── notebooks/
 │   ├── 01_read_customers.py
 │   ├── 02_clean_customers.py
