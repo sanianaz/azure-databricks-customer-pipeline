@@ -26,7 +26,7 @@ The pipeline follows the Medallion Architecture:
 - Apache Spark
 - Parquet
 - Git and GitHub
-- - Java 17
+- Java 17
 
 ## 4. Project Structure
 
@@ -43,22 +43,35 @@ azure-databricks-customer-pipeline/
 ├── README.md
 └── .gitignore
 ```
-Note: The Bronze, Silver and Gold folders are generated locally when the pipeline runs. They are excluded from GitHub using .gitignore.
+**Note:** The Bronze, Silver and Gold folders are generated locally when the pipeline runs. They are excluded from GitHub using .gitignore.
 
+## 5. How to Run the Project
 ## 5. How to Run the Project
 
 **Prerequisites:**
 - Python 3
 - Java 17
 - Ubuntu/WSL (for the commands below)
-- 
-Activate the Python virtual environment and install PySpark:
+
+**Step 1: Create a Python virtual environment**
+
+```bash
+python3 -m venv .venv
+```
+
+**Step 2: Activate the virtual environment**
+
+```bash
+source .venv/bin/activate
+```
+
+**Step 3: Install PySpark**
 
 ```bash
 python -m pip install pyspark==4.3.0
 ```
 
-Run the pipeline scripts in this order:
+**Step 4: Run the pipeline scripts in this order**
 
 ```bash
 python notebooks/01_read_customers.py
