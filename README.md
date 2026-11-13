@@ -42,6 +42,7 @@ azure-databricks-customer-pipeline/
 ├── README.md
 └── .gitignore
 ```
+Note: The Bronze, Silver and Gold folders are generated locally when the pipeline runs. They are excluded from GitHub using .gitignore.
 
 ## 5. How to Run the Project
 
