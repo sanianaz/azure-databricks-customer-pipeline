@@ -16,7 +16,7 @@ The pipeline follows the Medallion Architecture:
 
 - **Landing:** Stores the original customer CSV file.
 - **Bronze:** Stores the raw customer data in Parquet format.
-- **Silver:** Removes duplicate customer IDs and creates a full_name column.
+- **Silver:** Removes duplicate customer IDs and creates a `full_name` column.
 - **Gold:** Groups customers by country and calculates the customer count.
 
 ## 3. Technologies Used
@@ -43,12 +43,13 @@ azure-databricks-customer-pipeline/
 ├── README.md
 └── .gitignore
 ```
-**Note:** The Bronze, Silver and Gold folders are generated locally when the pipeline runs. They are excluded from GitHub using .gitignore.
 
-## 5. How to Run the Project
+**Note:** The Bronze, Silver and Gold folders are generated locally when the pipeline runs. They are excluded from GitHub using `.gitignore`.
+
 ## 5. How to Run the Project
 
 **Prerequisites:**
+
 - Python 3
 - Java 17
 - Ubuntu/WSL (for the commands below)
@@ -84,11 +85,11 @@ python notebooks/03_create_gold.py
 The Gold layer provides the following customer summary:
 
 | Country | Customer Count |
-|---|---:|
-| UK | 3 |
-| Sweden | 2 |
-| France | 2 |
-| USA | 1 |
+| ------- | -------------: |
+| UK      |              3 |
+| Sweden  |              2 |
+| France  |              2 |
+| USA     |              1 |
 
 Total customers: 8
 
