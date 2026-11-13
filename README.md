@@ -47,6 +47,11 @@ Note: The Bronze, Silver and Gold folders are generated locally when the pipelin
 
 ## 5. How to Run the Project
 
+**Prerequisites:**
+- Python 3
+- Java 17
+- Ubuntu/WSL (for the commands below)
+- 
 Activate the Python virtual environment and install PySpark:
 
 ```bash
