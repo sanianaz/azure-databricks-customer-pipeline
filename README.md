@@ -26,6 +26,7 @@ The pipeline follows the Medallion Architecture:
 - Apache Spark
 - Parquet
 - Git and GitHub
+- - Java 17
 
 ## 4. Project Structure
 
